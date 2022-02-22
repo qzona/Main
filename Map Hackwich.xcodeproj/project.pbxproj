@@ -13,6 +13,7 @@
 		3FFB83E027C5468800CE333A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB83DF27C5468800CE333A /* Preview Assets.xcassets */; };
 		3FFB83EB27C5468900CE333A /* Map_HackwichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB83EA27C5468900CE333A /* Map_HackwichTests.swift */; };
 		3FFB83F627C5468900CE333A /* Map_HackwichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB83F527C5468900CE333A /* Map_HackwichUITests.swift */; };
+		3FFB840427C5494E00CE333A /* locationManager.Swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB840327C5494E00CE333A /* locationManager.Swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3FFB83F127C5468900CE333A /* Map HackwichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map HackwichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFB83F527C5468900CE333A /* Map_HackwichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_HackwichUITests.swift; sourceTree = "<group>"; };
 		3FFB83F727C5468900CE333A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFB840327C5494E00CE333A /* locationManager.Swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationManager.Swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		3FFB83CC27C5468600CE333A = {
 			isa = PBXGroup;
 			children = (
+				3FFB840327C5494E00CE333A /* locationManager.Swift */,
 				3FFB83D727C5468600CE333A /* Map Hackwich */,
 				3FFB83E927C5468900CE333A /* Map HackwichTests */,
 				3FFB83F427C5468900CE333A /* Map HackwichUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				3FFB83DB27C5468600CE333A /* ContentView.swift in Sources */,
 				3FFB83D927C5468600CE333A /* Map_HackwichApp.swift in Sources */,
+				3FFB840427C5494E00CE333A /* locationManager.Swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
